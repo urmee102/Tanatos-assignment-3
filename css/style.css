@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #3b434c;
+}
+header{
+
+background-image: url(../images/banner.jpeg);
+
+background-size: cover;
+
+height: 860px;
+
+position: relative;
+
+margin-bottom: 50px;
+}
+.overlay1{
+	position: absolute;
+	background-color: #2d3950;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	bottom: 0%;
+	opacity: 0.5;
+}
+.container{
+
+width: 1000px;
+
+margin: 0 auto;
+
+overflow: hidden;
+position: relative;
+}
+.logo{
+
+padding-top: 132px;
+
+width: 30%;
+
+float: left;
+}
+.logo a{
+
+}
+.logo a img{
+
+}
+nav{
+
+width: 70%;
+
+float: left;
+
+padding-top: 120px;
+
+padding-bottom: 174px;
+}
+nav ul{text-align: right;}
+nav ul li{
+
+list-style: none;
+
+display: inline-block;
+
+padding: 10px;
+}
+nav ul li a{
+
+text-decoration: none;
+
+text-transform: uppercase;
+
+color: #fff;
+}
+div.header-content{text-align: center;}
+.header-content h1{
+	font-size: 70px;
+	padding-bottom: 44px;
+}
+span{
+	
+color: #f7600e;
+}
+.header-content p{
+
+font-size: 25px;
+
+margin-bottom: 94px;
+
+width: 100%;
+
+margin-left: 0;
+}
+.btn{background: #f7600e;border: 1px solid #f7600e;color: white;padding: 18px 85px;border-radius: 13px;text-decoration: none;font-size: 16px;margin-bottom: 80px;display: inline-block;}
+.down{
+	
+color: white;
+	
+font-size: 22px;
+	
+position: absolute;
+	
+left: 50%;
+	
+bottom: 34px;
+	
+transform: translate(-50%);
+}
+.work-section{
+
+text-align: center;
+
+height: 775px;
+
+margin-bottom: 50px;
+
+position: relative;
+}
+.work-content{
+
+text-align: center;
+}
+.work-content h1{font-size: 55px;padding-bottom: 35px;}
+span{
+
+}
+.work-content p{
+
+color: black;
+
+width: 50%;
+
+text-align: center;
+
+margin: 0 auto 100px;
+
+font-size: 16px;
+}
+.work{width: 33.33%;float: left;}
+.work img{width: 89%;margin-bottom: 20px;}
+.button{
+
+}
+.button a{
+	
+color: #3b434c;
+	
+text-decoration: none;
+	
+border: 2px solid #dbdbdb;
+	
+padding: 16px 65px;
+	
+border-radius: 10px;
+	
+font-weight: 500;
+	
+position: absolute;
+	
+bottom: 3%;
+	
+left: 50%;
+	
+transform: translate(-50%,3%);
+}
+.portfolio-section{
+
+display: block;
+
+text-align: center;
+}
+.portfolio-content{
+
+}
+.portfolio-content h1{
+
+font-size: 55px;
+
+padding-bottom: 38px;
+}
+span{
+
+}
+.portfolio-content p{
+
+color: #3b434c;
+
+margin-bottom: 100px;
+
+padding: 5px;
+}
+.team{
+
+width: 25%;
+
+float: left;
+}
+.team img{
+
+width: 85%;
+
+margin-bottom: 28px;
+
+filter: grayscale(100%);
+}
+.team img:hover{
+	background-color: grey;
+}
+.team h2{
+
+font-weight: 700;
+
+margin-bottom: 30px;
+}
+.team p{
+	
+color: #3b434c;
+	
+margin-bottom: 100px;
+	
+width: 90%;
+	
+margin-left: 5%;
+}
+.contact-section{
+
+background-image: url(../images/bg.jpeg);
+
+height: 850px;
+
+text-align: center;
+
+background-repeat: no-repeat;
+
+background-size: cover;
+position: relative;
+}
+.overlay{
+	position: absolute;
+	background-color: #2d3950;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	bottom: 0%;
+	opacity: 0.5;
+	z-index: 0;
+}
+.contact-content{
+
+margin-bottom: 100px;
+padding-top: 10%;
+}
+h1{
+
+padding-bottom: 40px;
+font-size: 55px;
+}
+span{
+
+color: #f7600e;
+}
+p{
+
+font-size: 18px;
+
+color: #fff;
+
+width: 47%;
+
+margin-left: 25%;
+}
+.form-contact{
+
+}
+form{
+
+width: 79%;
+
+margin: 0 auto;
+
+text-align: left;
+}
+input{
+
+width: 49%;
+
+border: 0;
+
+padding: 15px;
+
+border-radius: 10px;
+
+margin-bottom: 31px;
+
+font-size: 16px;
+}
+
+textarea{
+
+border: 0px;
+
+padding: 17px;
+
+border-radius: 10px;
+
+margin-bottom: 35px;
+
+font-size: 16px;
+
+width: 98%;
+}
+.btn{
+background: #f7600e;border: 1px solid #f7600e;color: white;padding: 18px 85px;border-radius: 13px;text-decoration: none;font-size: 16px;margin-bottom: 80px;display: inline-block;
+}
+.btn{
+	animation-name: move;
+	animation-delay: 1s;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes move{
+	0%{background-color: : #f7600e;}
+	100%{background-color: yellow;}
+}
+.footer{
+
+height: 115px;
+
+background: #3b434c;
+
+padding-top: 3%;
+}
+.copyright{
+    display: inline-block;
+    float: left;
+}
+.copyright p{
+
+width: 100%;
+}
+.design{
+
+float: right;
+
+width: 32%;
+}
+.design p{}
+.design p img{
+	
+padding-left: 6px;
+}
+.btn{
+	animation-name: move;
+	animation-delay: 1s;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
+
+@keyframes move{
+	0%{
+		transform: translateY(0);
+	}
+
+	100%{
+		transform: translateY(10px);
+	}
+}
